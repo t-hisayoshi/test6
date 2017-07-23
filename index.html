@@ -17,18 +17,13 @@
 var mapDiv = document.getElementById( "map-canvas" ) ;
 
 var map = new google.maps.Map( mapDiv, {
-	center: new google.maps.LatLng( 35.7100, 139.8107 ) ,
+	center: new google.maps.LatLng( 35.6954806, 139.76325010000005 ) ,
 	zoom: 11 ,
 } ) ;
 
 //マーカーデータセット
 var markerData = [ // マーカーを立てる場所名・緯度・経度
-  {
-       name: 'TAM 東京',
-       lat: 35.6954806,
-        lng: 139.76325010000005,
-        icon: 'tam.png' // TAM 東京のマーカーだけイメージを変更する
- }, {
+ {
         name: '小川町駅',
      lat: 35.6951212,
         lng: 139.76610649999998
